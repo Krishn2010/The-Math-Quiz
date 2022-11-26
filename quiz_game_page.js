@@ -1,6 +1,6 @@
 function send() {
-    number_1 = document.getElementById("player1_name_input").value;
-    number_2 = document.getElementById("player2_name_input").value;
+    number_1 = document.getElementById("number1").value;
+    number_2 = document.getElementById("number2").value;
     actual_answer = parseInt(number_1) * parseInt(number_2);
 
     question_number = "<h4>"+number_1+"x"+number_2+"</h4>";
